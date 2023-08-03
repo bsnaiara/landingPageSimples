@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 70px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.conteudo-principal{
+display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.conteudo-principal-escrito{
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #27041d;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  
+}
+
+.conteudo-principal-botao{
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+.conteudo-principal-botao:hover{
+    background-color:rgba(221, 196, 236, 0.53) ;
+    transition-duration: 0.5s;
+}
+.conteudo-principal-img{
+    height: 430px;
+    border: solid;
+    border-width: 10px;
+    border-color:  #310d28;
+
+}
+
+.conteudo-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.conteudo-sec-topico{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color:  #2F2325;
+    margin-bottom: 16px;
+}
+
+.conteudo-sec-txt{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color:  #2F2325;
+}
+.rodape{
+    
+    border-top: 0.4px solid #FFF2E7;
+    background-color: white;
+}
+
+.rodape-img{
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+a{
+    color:#310d28;
+    font-family: 'Open Sans', sans-serif;
+}
